@@ -17,23 +17,28 @@ export const orderStatus=[{
 ]
 
 export const graphicalData=[{
-    status:"Pending Orders",
-    number:4
+    label:"Pending Orders",
+    value:4,
+    color:"grey"
 },
 {
-    status:"Processing Orders",
-    number:0
+    label:"Processing Orders",
+    value:0,
+    color:"orange"
 },
 {
-    status:"Ready To Deliver",
-    number:3
+    label:"Ready To Deliver",
+    value:3,
+    color:"blue"
 },
 {
-    status:"Delivered Orders",
-    number:0
+    label:"Delivered Orders",
+    value:0,
+    color:"green"
 },
 {
-    status:"Returned",
-    number:0
+    label:"Returned",
+    value:0,
+    color:"red"
 },
 ]
